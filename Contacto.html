@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html Lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Albert Sanchez">
+    <meta name="description" content="Mi primera página web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web</title>
+
+   <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <a id="logo-header" href="Index.html"><img src="imagenes/Logo.jpg" width="980" height="200"> </a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Temario.html">Temario</a></li>
+            <li><a href="Galeria.html">Galeria</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h2>Contacto</h2>
+        <iframe style="float:right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6572905040694!2d-70.50976358477621!3d19.42720798688743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb1d75c8982da89%3A0xfbaecd135bd58d67!2sSupermercado%20LyC!5e0!3m2!1ses-419!2sdo!4v1620309371251!5m2!1ses-419!2sdo"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <form id="contacto" action="#" method="POST" autocomplete="off">
+            <div>
+                <label>Nombre:</label><br />
+                <input type="text" id="nombre" name="nombre" size="20" requied autofocus><br>
+            </div>
+            <div>
+                <label>Correo:</label><br />
+                <input type="email" id="correo" name="correo" size="20" requied><br>
+            </div>
+            <div>
+                <label>Mensaje:</label><br />
+                <textarea id="Mensaje" name="Mensaje" rows="7" cols="30" requied></textarea><br>
+                <input type="submit" id="Enviar" value="Enviar">
+            </div>
+        </form>
+
+    </article>
+
+    <footer>
+        <p>Copyright &#169; 2021 <a href="Index.html">Derechos de la pagina 100% real no fake</a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+body {
+            width: 980px;
+            margin: 0px auto;
+        }
+        
+        header {
+            padding: 0 0 80px auto;
+        }
+        
+        #logo-header {
+            float: top;
+            text-decoration: none;
+        }
+        
+        nav {
+            background-color: #666;
+            padding-left: 2px;
+            margin-bottom: 2px;
+            height: 20px;
+        }
+        
+        nav ul li {
+            display: inline;
+            padding: 0px 20px 5px 2px;
+            border-right: 1px solid #fff;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        footer {
+            position: absolute;
+            bottom: 0;
+        }
+
+
